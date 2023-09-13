@@ -1,0 +1,13 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+#answerField {
+    color: rgb(197, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnRetry {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: darkblue;
+}
