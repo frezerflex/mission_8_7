@@ -63,7 +63,7 @@ document.getElementById('btnLess').addEventListener('click', function () {
             }
         } else {
             maxValue = answerNumber  - 1;
-            answerNumber  = Math.floor((maxValue + minValue) / 2);
+            answerNumber  = Math.round((maxValue + minValue) / 2);
             orderNumber++;
             orderNumberField.innerText = orderNumber;
             answerField.innerText = `Вы загадали число ${numToPr(answerNumber) }?`;
